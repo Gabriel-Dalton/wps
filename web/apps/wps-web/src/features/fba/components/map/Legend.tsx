@@ -64,7 +64,7 @@ const LegendItem: React.FC<LegendItemProps> = ({
           <Grid>
             <Checkbox
               data-testid={`${label.toLowerCase().split(' ')[0]}-checkbox`}
-              inputProps={{ 'aria-label': `Show ${label} layer` }}
+              slotProps={{ input: { 'aria-label': `Show ${label} layer` } }}
               checked={checked}
               onChange={onChange}
             />

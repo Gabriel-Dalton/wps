@@ -33,7 +33,10 @@ const MenuHeader = ({ open, setOpen }: MenuHeaderProps) => {
           <MenuIcon />
         </IconButton>
         <HeaderImage />
-        <Typography sx={{ fontSize: '1.7em', flexGrow: 1 }}>{FIRE_WATCH_NAME}</Typography>
+        {/* Level-1 heading so Fire Watch has a page anchor for screen reader heading navigation. */}
+        <Typography component="h1" sx={{ fontSize: '1.7em', flexGrow: 1, fontWeight: 'normal', margin: 0 }}>
+          {FIRE_WATCH_NAME}
+        </Typography>
         <Box sx={{ color: 'text.primary' }}>
           <FeedbackButton color="inherit" />
         </Box>
