@@ -293,17 +293,27 @@ async def get_min_wind_speed_hfi_thresholds(
     return advisory_wind_speed_by_source_id
 
 
-async def get_precomputed_stats_for_shape(
+async def get_precomputed_stats_for_shapes(
     session: AsyncSession,
     run_type: RunTypeEnum,
     run_datetime: datetime,
     for_date: date,
-    source_identifier: int,
+    source_identifiers: List[int],
     fuel_type_raster_id: int,
-) -> List[Row]:
+) -> dict[int, List[Row]]:
+    """
+    Retrieve precomputed HFI/fuel statistics for several shapes in a single query,
+    keyed by source identifier. Source identifiers with no matching rows are absent
+    from the result.
+    """
+    stats_by_source_id: dict[int, List[Row]] = defaultdict(list)
+    if not source_identifiers:
+        return stats_by_source_id
+
     perf_start = perf_counter()
     stmt = (
         select(
+            Shape.source_identifier,
             CriticalHours.start_hour,
             CriticalHours.end_hour,
             AdvisoryFuelStats.fuel_type,
@@ -341,7 +351,7 @@ async def get_precomputed_stats_for_shape(
             isouter=True,
         )
         .where(
-            Shape.source_identifier == str(source_identifier),
+            Shape.source_identifier.in_([str(s) for s in source_identifiers]),
             RunParameters.run_type == run_type.value,
             RunParameters.run_datetime == run_datetime,
             RunParameters.for_date == for_date,
@@ -350,11 +360,12 @@ async def get_precomputed_stats_for_shape(
     )
 
     result = await session.execute(stmt)
-    all_results = result.all()
+    for source_identifier, *stats in result.all():
+        stats_by_source_id[int(source_identifier)].append(tuple(stats))
     perf_end = perf_counter()
     delta = perf_end - perf_start
     logger.info("%f delta count before and after advisory stats query", delta)
-    return all_results
+    return stats_by_source_id
 
 
 async def get_fuel_type_stats_in_advisory_area(
