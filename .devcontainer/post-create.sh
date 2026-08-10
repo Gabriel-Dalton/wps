@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # Runs once, after the dev container is created.
+# The working directory is the dev container's workspaceFolder.
 set -euo pipefail
 
-cd /workspace
+repo="$(pwd)"
 
 # python-decouple walks up from the package directory, so .env belongs at the repo
 # root (see backend/README.md).
@@ -13,7 +14,7 @@ if [ ! -f .env ]; then
   sed -i 's/^REDIS_HOST=.*/REDIS_HOST=redis/' .env
   sed -i 's/^NATS_SERVER=.*/NATS_SERVER=nats/' .env
   # The RedAPP comparison tests need the bundled jars on the CLASSPATH.
-  libs=/workspace/backend/packages/wps-api/libs
+  libs="${repo}/backend/packages/wps-api/libs"
   sed -i "s|^CLASSPATH=.*|CLASSPATH=${libs}/REDapp_Lib.jar:${libs}/WTime.jar:${libs}/hss-java.jar|" .env
   echo "Created .env from .env.example. External service credentials (WFWX, object"
   echo "store, Sentry) are still placeholders - ask a maintainer for real values."
@@ -24,7 +25,7 @@ if [ ! -f web/apps/wps-web/.env ]; then
 fi
 
 echo "Installing python workspace dependencies (this builds gdal, it takes a while)..."
-cd /workspace/backend
+cd "${repo}/backend"
 uv sync --all-extras
 
 echo

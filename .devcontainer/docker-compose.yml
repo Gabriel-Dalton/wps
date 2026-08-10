@@ -7,7 +7,9 @@ services:
       context: ..
       dockerfile: .devcontainer/Dockerfile
     volumes:
-      - ..:/workspace:cached
+      # Codespaces mounts the repo at /workspaces/<repo>; match it so the path is
+      # the same whether this runs in Codespaces or a local VS Code dev container.
+      - ..:/workspaces/wps:cached
     command: sleep infinity
     depends_on:
       - db

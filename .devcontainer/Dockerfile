@@ -30,4 +30,8 @@ COPY --from=ghcr.io/astral-sh/uv:0.9.11 /uv /uvx /bin/
 # Unlike the production image this runs as root. A dev container is a workstation,
 # not a deployed workload, and the non-root `worker` user only creates ownership
 # mismatches against the mounted workspace.
-ENV PYTHONPYCACHEPREFIX=python_cache
+# Absolute on purpose. A relative prefix is resolved against the current working
+# directory, so it scatters a `python_cache` directory through the workspace and
+# into dependency build directories - where setuptools then sees it as a second
+# top-level package and refuses to build (`cffdrs` fails this way).
+ENV PYTHONPYCACHEPREFIX=/tmp/python_cache

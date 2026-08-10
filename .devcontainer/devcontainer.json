@@ -4,7 +4,7 @@
   "name": "wps",
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
-  "workspaceFolder": "/workspace",
+  "workspaceFolder": "/workspaces/wps",
   // The osgeo/gdal image ships no SSH server, which the GitHub Codespaces CLI
   // needs in order to open a terminal.
   "features": {
@@ -16,9 +16,9 @@
   "customizations": {
     "vscode": {
       "settings": {
-        "python.defaultInterpreterPath": "/workspace/backend/.venv/bin/python",
+        "python.defaultInterpreterPath": "/workspaces/wps/backend/.venv/bin/python",
         "python.testing.pytestEnabled": true,
-        "python.testing.cwd": "/workspace/backend",
+        "python.testing.cwd": "/workspaces/wps/backend",
         "terminal.integrated.defaultProfile.linux": "bash"
       },
       "extensions": [
