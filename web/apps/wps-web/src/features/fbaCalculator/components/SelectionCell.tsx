@@ -16,6 +16,7 @@ const SelectionCell = (props: SelectionCellProps) => {
   return (
     <Checkbox
       data-testid={testId}
+      inputProps={{ 'aria-label': `Select row ${props.rowId + 1}` }}
       color="primary"
       disabled={props.disabled}
       checked={selectedSet.has(props.rowId)}

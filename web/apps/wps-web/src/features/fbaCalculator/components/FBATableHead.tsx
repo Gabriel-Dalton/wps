@@ -390,6 +390,7 @@ const FBATableHead = ({
         <StickyCell left={0} zIndexOffset={Z_INDEX_OFFSET + 100}>
           <Checkbox
             data-testid="select-all"
+            inputProps={{ 'aria-label': 'Select all rows' }}
             color="primary"
             checked={headerSelected}
             onClick={() => {

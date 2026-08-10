@@ -15,7 +15,7 @@ const FireBehaviourCalculator: React.FunctionComponent = () => {
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
       <GeneralHeader isBeta={false} spacing={1} title="Fire Behaviour Calculator" />
-      <Container sx={{ flexDirection: 'column', flexGrow: 1, paddingTop: '0.5em' }} maxWidth={'xl'}>
+      <Container component="main" sx={{ flexDirection: 'column', flexGrow: 1, paddingTop: '0.5em' }} maxWidth={'xl'}>
         <FBATable />
       </Container>
       <Footer />

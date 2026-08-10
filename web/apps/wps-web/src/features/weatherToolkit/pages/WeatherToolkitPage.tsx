@@ -58,7 +58,7 @@ const WeatherToolkitPage = () => {
     <LocalizationProvider dateAdapter={AdapterLuxon}>
       <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', overflow: 'hidden' }}>
         {!isChartExpanded && <GeneralHeader isBeta={true} spacing={0.985} title={WEATHER_TOOLKIT_NAME} />}
-        <Box sx={{ display: 'flex', flexGrow: 1 }}>
+        <Box component="main" sx={{ display: 'flex', flexGrow: 1 }}>
           <SidePanel
             model={model}
             setModel={setModel}

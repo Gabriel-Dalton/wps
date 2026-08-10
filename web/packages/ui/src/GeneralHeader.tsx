@@ -40,7 +40,11 @@ const Root = styled('nav')(({ theme }) => ({
 
   [`& .${classes.title}`]: {
     color: theme.palette.primary.contrastText,
-    fontSize: '1.7rem'
+    fontSize: '1.7rem',
+    // Rendered as an <h1> for screen reader heading navigation; reset the UA heading styles
+    // so the visual appearance is unchanged.
+    fontWeight: 'normal',
+    margin: 0
   },
 
   [`& .${classes.titleWrapper}`]: {
@@ -65,7 +69,9 @@ export const GeneralHeader = React.forwardRef<HTMLDivElement, Props>((props, ref
       <OptionalContainer className={classes.container}>
         <div className={classes.titleWrapper}>
           <HeaderImage />
-          <div className={classes.title}>{title}</div>
+          {/* Each tool page needs exactly one level-1 heading so screen reader users can
+              orient themselves via the rotor / elements list. */}
+          <h1 className={classes.title}>{title}</h1>
           {props.isBeta && <div className={classes.beta}>BETA</div>}
         </div>
         <div style={{ flexGrow: spacing }}></div>

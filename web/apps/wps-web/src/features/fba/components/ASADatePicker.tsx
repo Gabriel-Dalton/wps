@@ -45,18 +45,20 @@ function CustomDateTextField(props: Readonly<CustomDateTextFieldProps>) {
     return (
       <>
         <IconButton
+          aria-label="Previous day"
           disabled={disabled || isNil(date) || minimumDate >= date.minus({ days: 1 })}
           onClick={() => handleArrowButton(-1)}
           sx={{ paddingLeft: 0, transform: 'rotate(180deg)' }}
         >
-          <PlayArrow />
+          <PlayArrow aria-hidden="true" />
         </IconButton>
         <IconButton
+          aria-label="Next day"
           disabled={disabled || isNil(date) || date >= maximumDate}
           onClick={() => handleArrowButton(1)}
           sx={{ paddingLeft: 0 }}
         >
-          <PlayArrow />
+          <PlayArrow aria-hidden="true" />
         </IconButton>
       </>
     )
@@ -64,8 +66,8 @@ function CustomDateTextField(props: Readonly<CustomDateTextFieldProps>) {
 
   const renderEndAdornments = () => {
     return (
-      <IconButton aria-label="calendar" onClick={handleTogglePicker} disabled={disabled}>
-        <CalendarIcon color="action" />
+      <IconButton aria-label="Open calendar" onClick={handleTogglePicker} disabled={disabled}>
+        <CalendarIcon color="action" aria-hidden="true" />
       </IconButton>
     )
   }

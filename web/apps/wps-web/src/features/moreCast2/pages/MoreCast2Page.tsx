@@ -40,7 +40,7 @@ export const Content = styled('div')({
   overflow: 'hidden'
 })
 
-export const Observations = styled('div')(({ theme }) => ({
+export const Observations = styled('main')(({ theme }) => ({
   display: 'flex',
   flexDirection: 'column',
   flexGrow: 1,

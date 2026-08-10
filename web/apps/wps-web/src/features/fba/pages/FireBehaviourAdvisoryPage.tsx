@@ -203,7 +203,7 @@ const FireBehaviourAdvisoryPage: React.FunctionComponent = () => {
           </Grid>
         </Grid>
       </Box>
-      <Box sx={{ display: 'flex', flexGrow: 1, overflow: 'hidden' }}>
+      <Box component="main" sx={{ display: 'flex', flexGrow: 1, overflow: 'hidden' }}>
         <Box sx={{ width: 700, overflowY: 'auto' }}>
           <AdvisoryReport
             issueDate={mostRecentRunDate !== null ? DateTime.fromISO(mostRecentRunDate) : null}

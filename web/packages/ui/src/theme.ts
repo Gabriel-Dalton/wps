@@ -16,7 +16,9 @@ export const theme = createTheme({
       dark: '#C49000'
     },
     success: { main: '#2E8540' },
-    error: { main: '#FF3E34' },
+    // #FF3E34 only reaches 3.5:1 on white, which fails WCAG 1.4.3 for the body-size error
+    // text and MUI's error-state form labels. #A2231D is the BC Gov error red and clears AA.
+    error: { main: '#A2231D' },
     warning: { main: '#FE7921' },
     contrastThreshold: 3,
     tonalOffset: 0.1

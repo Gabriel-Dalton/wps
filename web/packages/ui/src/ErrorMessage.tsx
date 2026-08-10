@@ -40,7 +40,9 @@ export const ErrorMessage: React.FunctionComponent<Props> = (props: Props) => {
   const message = getMessage(props)
 
   return (
-    <Root className={classes.root} data-testid="error-message">
+    // role="alert" makes the error interrupt the screen reader so it is announced when it
+    // appears, rather than only being found by manually arrowing over the page.
+    <Root className={classes.root} role="alert" data-testid="error-message">
       {message}
     </Root>
   )
