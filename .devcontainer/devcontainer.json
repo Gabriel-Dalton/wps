@@ -7,8 +7,11 @@
   "workspaceFolder": "/workspaces/wps",
   // The osgeo/gdal image ships no SSH server, which the GitHub Codespaces CLI
   // needs in order to open a terminal.
+  // The test suite uses testcontainers, which starts a throwaway PostgreSQL
+  // container and therefore needs a Docker daemon inside the dev container.
   "features": {
-    "ghcr.io/devcontainers/features/sshd:1": {}
+    "ghcr.io/devcontainers/features/sshd:1": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   },
   // API (uvicorn) and web (vite) respectively.
   "forwardPorts": [8080, 3000],
