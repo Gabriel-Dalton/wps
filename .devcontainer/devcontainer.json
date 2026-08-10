@@ -5,8 +5,11 @@
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
   "workspaceFolder": "/workspace",
-  "remoteUser": "worker",
-  "updateRemoteUserUID": false,
+  // The osgeo/gdal image ships no SSH server, which the GitHub Codespaces CLI
+  // needs in order to open a terminal.
+  "features": {
+    "ghcr.io/devcontainers/features/sshd:1": {}
+  },
   // API (uvicorn) and web (vite) respectively.
   "forwardPorts": [8080, 3000],
   "postCreateCommand": "bash .devcontainer/post-create.sh",

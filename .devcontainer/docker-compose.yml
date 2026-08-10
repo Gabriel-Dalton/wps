@@ -15,7 +15,8 @@ services:
       - nats
 
   db:
-    image: postgis/postgis:17-3.5
+    # Unpinned to match the root docker-compose.yml.
+    image: postgis/postgis
     environment:
       - POSTGRES_USER=wps
       - POSTGRES_PASSWORD=wps

@@ -27,13 +27,7 @@ RUN apt-get update --fix-missing && apt-get -y install --no-install-recommends \
 # uv replaced poetry as the workspace package manager.
 COPY --from=ghcr.io/astral-sh/uv:0.9.11 /uv /uvx /bin/
 
-# Match the non-root user the production image uses.
-ARG USERNAME=worker
-ARG USER_UID=1010
-ARG USER_GID=1000
-RUN useradd --uid $USER_UID --gid $USER_GID -m $USERNAME \
-    && chmod a+rx /home/$USERNAME
-
-USER $USERNAME
-ENV PATH="/home/${USERNAME}/.local/bin:${PATH}"
+# Unlike the production image this runs as root. A dev container is a workstation,
+# not a deployed workload, and the non-root `worker` user only creates ownership
+# mismatches against the mounted workspace.
 ENV PYTHONPYCACHEPREFIX=python_cache
