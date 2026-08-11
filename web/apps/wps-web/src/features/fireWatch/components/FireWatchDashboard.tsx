@@ -185,7 +185,7 @@ const FireWatchDashboard = () => {
 
   return (
     <Box data-testid="fire-watch-dashboard" id="fire-watch-dashboard" sx={{ flexGrow: 1 }}>
-      <Typography sx={{ padding: theme.spacing(2) }} variant="h4">
+      <Typography component="h2" sx={{ padding: theme.spacing(2) }} variant="h4">
         Dashboard
       </Typography>
       <Backdrop open={updateLoading} sx={{ color: '#fff', zIndex: theme => theme.zIndex.drawer + 1 }}>

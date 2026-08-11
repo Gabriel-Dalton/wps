@@ -29,7 +29,7 @@ const SidePanel = ({
     <Box sx={{ display: 'flex', flexDirection: 'column', width: '320px', p: 3, bgcolor: CONTROL_BACKGROUND_COLOUR }}>
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 1 }}>
         <ShowChart sx={{ color: theme.palette.primary.main, fontSize: 28 }} />
-        <Typography variant="h5" sx={{ fontWeight: 'bold', color: theme.palette.primary.main }}>
+        <Typography component="h2" variant="h5" sx={{ fontWeight: 'bold', color: theme.palette.primary.main }}>
           4-Panel Charts
         </Typography>
       </Box>

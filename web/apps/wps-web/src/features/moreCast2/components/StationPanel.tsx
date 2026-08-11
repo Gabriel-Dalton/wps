@@ -108,7 +108,10 @@ const StationPanel = (props: StationPanelProps) => {
   return (
     <Root className={classes.root} data-testid={`morecast2-station-panel`}>
       <div className={classes.header}>
-        <Typography variant="h5">Stations</Typography>
+        {/* variant sets the size only; component sets the level so it follows the page h1. */}
+        <Typography component="h2" variant="h5">
+          Stations
+        </Typography>
       </div>
       {!loading ? (
         <>

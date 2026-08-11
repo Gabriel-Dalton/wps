@@ -70,7 +70,10 @@ const InfoAccordion = ({
     <Accordion data-testid="info-accordion" disableGutters defaultExpanded={defaultExpanded} elevation={0}>
       <Box>
         <StyledAccordionSummary expandIcon={<ExpandMoreIcon />}>
+          {/* MUI already renders the AccordionSummary as a heading, so this Typography must be a
+              span. Otherwise the title is announced twice and creates a h3 -> h6 level jump. */}
           <Typography
+            component="span"
             data-testid="info-accordion-title"
             sx={{
               color: theme.palette.primary.main,
