@@ -28,32 +28,34 @@ describe('ASADatePicker', () => {
     expect(input).toBeInTheDocument()
   })
 
+  // The arrow buttons are found by their accessible name, which is what a screen reader
+  // announces. Previously these were queried by an empty name, which is the defect that was
+  // fixed: the buttons were reachable by keyboard but announced as just "button".
+  const getPreviousDayButton = () => screen.getByRole('button', { name: 'Previous day' })
+  const getNextDayButton = () => screen.getByRole('button', { name: 'Next day' })
+
   it('calls updateDate when right arrow is clicked', () => {
     const { updateDate } = setup()
-    const arrows = screen.getAllByRole('button', { name: '' }) // two arrow buttons
-    fireEvent.click(arrows[1]) // right arrow
+    fireEvent.click(getNextDayButton())
     expect(updateDate).toHaveBeenCalledWith(baseDate.plus({ days: 1 }))
   })
 
   it('calls updateDate when left arrow is clicked', () => {
     const { updateDate } = setup()
-    const arrows = screen.getAllByRole('button', { name: '' }) // two arrow buttons
-    fireEvent.click(arrows[0]) // left arrow
+    fireEvent.click(getPreviousDayButton())
     expect(updateDate).toHaveBeenCalledWith(baseDate.plus({ days: -1 }))
   })
 
   it('disables left arrow when at minimumDate', () => {
     setup({ date: minimumDate })
-    const arrows = screen.getAllByRole('button', { name: '' })
-    expect(arrows[0]).toBeDisabled() // left arrow
-    expect(arrows[1]).not.toBeDisabled() // right arrow
+    expect(getPreviousDayButton()).toBeDisabled()
+    expect(getNextDayButton()).not.toBeDisabled()
   })
 
   it('disables right arrow when at maximumDate', () => {
     setup({ date: maximumDate })
-    const arrows = screen.getAllByRole('button', { name: '' })
-    expect(arrows[1]).toBeDisabled() // right arrow
-    expect(arrows[0]).not.toBeDisabled() // left arrow
+    expect(getNextDayButton()).toBeDisabled()
+    expect(getPreviousDayButton()).not.toBeDisabled()
   })
 
   it('opens and closes calendar picker when calendar icon is clicked', () => {
@@ -73,16 +75,21 @@ describe('ASADatePicker', () => {
 
   it('disables both arrow buttons when date is null', () => {
     setup({ date: null })
-    const arrows = screen.getAllByRole('button', { name: '' })
-    expect(arrows[0]).toBeDisabled() // left arrow
-    expect(arrows[1]).toBeDisabled() // right arrow
+    expect(getPreviousDayButton()).toBeDisabled()
+    expect(getNextDayButton()).toBeDisabled()
   })
 
   it('does not call updateDate when arrows are clicked and date is null', () => {
     const { updateDate } = setup({ date: null })
-    const arrows = screen.getAllByRole('button', { name: '' })
-    fireEvent.click(arrows[0]) // left arrow
-    fireEvent.click(arrows[1]) // right arrow
+    fireEvent.click(getPreviousDayButton())
+    fireEvent.click(getNextDayButton())
     expect(updateDate).not.toHaveBeenCalled()
+  })
+
+  it('gives every control an accessible name so a screen reader can announce it', () => {
+    setup()
+    for (const button of screen.getAllByRole('button')) {
+      expect(button).toHaveAccessibleName()
+    }
   })
 })
