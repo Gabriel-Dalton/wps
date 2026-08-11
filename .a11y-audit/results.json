@@ -1,0 +1,2505 @@
+[
+  {
+    "route": "/",
+    "label": "Landing page",
+    "url": "http://localhost:8759/",
+    "finalUrl": "http://localhost:8759/",
+    "redirectedToAuth": false,
+    "probe": {
+      "title": "Decision Support Tools | BCWS PSU",
+      "lang": "en",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Predictive Services Tools & Applications",
+          "sel": "main.MuiContainer-root.MuiContainer-maxWidthLg > header.MuiBox-root.css-xayaw2 > div.MuiStack-root.css-14nepse-MuiStack-root > h1.MuiTypography-root.MuiTypography-body1"
+        },
+        {
+          "level": 2,
+          "text": "BCPS Access Only",
+          "sel": "h2#bcps-access-only-heading"
+        },
+        {
+          "level": 3,
+          "text": "Auto Spatial Advisory",
+          "sel": "div.MuiStack-root.css-c1tf7w-MuiStack-root > div.MuiBox-root.css-1dz87si > div.MuiStack-root.css-1h9efsi-MuiStack-root > h3.MuiTypography-root.MuiTypography-body1"
+        },
+        {
+          "level": 3,
+          "text": "MoreCast",
+          "sel": "div.MuiStack-root.css-c1tf7w-MuiStack-root > div.MuiBox-root.css-1dz87si > div.MuiStack-root.css-1h9efsi-MuiStack-root > h3.MuiTypography-root.MuiTypography-body1"
+        },
+        {
+          "level": 3,
+          "text": "HFI Calculator",
+          "sel": "div.MuiStack-root.css-c1tf7w-MuiStack-root > div.MuiBox-root.css-1dz87si > div.MuiStack-root.css-1h9efsi-MuiStack-root > h3.MuiTypography-root.MuiTypography-body1"
+        },
+        {
+          "level": 3,
+          "text": "FireCalc",
+          "sel": "div.MuiStack-root.css-c1tf7w-MuiStack-root > div.MuiBox-root.css-1dz87si > div.MuiStack-root.css-1h9efsi-MuiStack-root > h3.MuiTypography-root.MuiTypography-body1"
+        },
+        {
+          "level": 3,
+          "text": "Fire Watch",
+          "sel": "div.MuiStack-root.css-c1tf7w-MuiStack-root > div.MuiBox-root.css-1dz87si > div.MuiStack-root.css-1h9efsi-MuiStack-root > h3.MuiTypography-root.MuiTypography-body1"
+        },
+        {
+          "level": 3,
+          "text": "SFMS Insights",
+          "sel": "div.MuiStack-root.css-c1tf7w-MuiStack-root > div.MuiBox-root.css-1dz87si > div.MuiStack-root.css-1h9efsi-MuiStack-root > h3.MuiTypography-root.MuiTypography-body1"
+        },
+        {
+          "level": 2,
+          "text": "Public Access",
+          "sel": "h2#public-access-heading"
+        },
+        {
+          "level": 3,
+          "text": "FBP Go",
+          "sel": "div.MuiStack-root.css-c1tf7w-MuiStack-root > div.MuiBox-root.css-1dz87si > div.MuiStack-root.css-1h9efsi-MuiStack-root > h3.MuiTypography-root.MuiTypography-body1"
+        },
+        {
+          "level": 3,
+          "text": "Percentile Calculator",
+          "sel": "div.MuiStack-root.css-c1tf7w-MuiStack-root > div.MuiBox-root.css-1dz87si > div.MuiStack-root.css-1h9efsi-MuiStack-root > h3.MuiTypography-root.MuiTypography-body1"
+        },
+        {
+          "level": 3,
+          "text": "Weather Toolkit",
+          "sel": "div.MuiStack-root.css-c1tf7w-MuiStack-root > div.MuiBox-root.css-1dz87si > div.MuiStack-root.css-1h9efsi-MuiStack-root > h3.MuiTypography-root.MuiTypography-body1"
+        },
+        {
+          "level": 3,
+          "text": "WX Data Viewer",
+          "sel": "div.MuiStack-root.css-c1tf7w-MuiStack-root > div.MuiBox-root.css-1dz87si > div.MuiStack-root.css-1h9efsi-MuiStack-root > h3.MuiTypography-root.MuiTypography-body1"
+        },
+        {
+          "level": 3,
+          "text": "WX Network Alerts",
+          "sel": "div.MuiStack-root.css-c1tf7w-MuiStack-root > div.MuiBox-root.css-1dz87si > div.MuiStack-root.css-1h9efsi-MuiStack-root > h3.MuiTypography-root.MuiTypography-body1"
+        },
+        {
+          "level": 2,
+          "text": "API Access",
+          "sel": "h2#api-access-heading"
+        },
+        {
+          "level": 3,
+          "text": "SFMS Fire Weather Index",
+          "sel": "div.MuiStack-root.css-c1tf7w-MuiStack-root > div.MuiBox-root.css-1dz87si > div.MuiStack-root.css-1h9efsi-MuiStack-root > h3.MuiTypography-root.MuiTypography-body1"
+        }
+      ],
+      "headingIssues": [],
+      "landmarks": [
+        {
+          "role": "main",
+          "name": "Quick AccessPredictive Services Tools & ",
+          "sel": "div#root > div.MuiBox-root.css-iejtcr > main.MuiContainer-root.MuiContainer-maxWidthLg"
+        },
+        {
+          "role": "header",
+          "name": "Quick AccessPredictive Services Tools & ",
+          "sel": "div#root > div.MuiBox-root.css-iejtcr > main.MuiContainer-root.MuiContainer-maxWidthLg > header.MuiBox-root.css-xayaw2"
+        }
+      ],
+      "landmarkIssues": [],
+      "skipLink": {
+        "text": "Open quick access",
+        "href": null
+      },
+      "skipLinkPresent": false,
+      "unnamed": [],
+      "placeholderOnly": [],
+      "liveRegions": [],
+      "tableIssues": [],
+      "dialogIssues": [],
+      "positiveTabindex": [],
+      "imgIssues": [],
+      "ariaHiddenFocusable": []
+    },
+    "tabOrder": [
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Open quick access",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Sprint Reviews",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Auto Spatial Advisory",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Add Auto Spatial Advisory to favourites",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "CSBC - Predictive Services",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Apple",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Google Play",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Open",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "MoreCast",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Add MoreCast to favourites",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "CSBC - Predictive Services",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Open",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "HFI Calculator",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Add HFI Calculator to favourites",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "CSBC - Predictive Services",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Open",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "FireCalc",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Add FireCalc to favourites",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "CSBC - Predictive Services",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Open",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Fire Watch",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Add Fire Watch to favourites",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "CSBC - Predictive Services",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Open",
+        "offscreen": false,
+        "outline": "none"
+      }
+    ],
+    "unnamedFocusStops": [
+      {
+        "tag": "a",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      }
+    ],
+    "noFocusIndicator": [
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Open quick access",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Add Auto Spatial Advisory to favourites",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Open",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Add MoreCast to favourites",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Open",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Add HFI Calculator to favourites",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Open",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Add FireCalc to favourites",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Open",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Add Fire Watch to favourites",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Open",
+        "offscreen": false,
+        "outline": "none"
+      }
+    ],
+    "axe": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+        "count": 1,
+        "nodes": [
+          {
+            "target": ".css-1t1hess-Footer-links-root",
+            "summary": "Fix any of the following: Some page content is not contained by landmarks",
+            "html": "<div class=\"css-1t1hess-Footer-links-root\">"
+          }
+        ]
+      }
+    ],
+    "consoleErrors": [
+      "Invalid Sentry Dsn: 123"
+    ]
+  },
+  {
+    "route": "/percentile-calculator",
+    "label": "Percentile Calculator",
+    "url": "http://localhost:8759/percentile-calculator",
+    "finalUrl": "http://localhost:8759/percentile-calculator",
+    "redirectedToAuth": false,
+    "probe": {
+      "title": "Percentile Calculator | BCWS PSU",
+      "lang": "en",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Percentile Calculator",
+          "sel": "nav.GeneralHeader-root.css-evrtt1 > div.MuiContainer-root.MuiContainer-maxWidthMd > div.GeneralHeader-titleWrapper > h1.GeneralHeader-title"
+        }
+      ],
+      "headingIssues": [],
+      "landmarks": [
+        {
+          "role": "main",
+          "name": "Percentile CalculatorNavigate to Weather",
+          "sel": "div#root > main"
+        },
+        {
+          "role": "nav",
+          "name": "Percentile Calculator",
+          "sel": "div#root > main > nav.GeneralHeader-root.css-evrtt1"
+        }
+      ],
+      "landmarkIssues": [],
+      "skipLink": {
+        "text": "",
+        "href": "https://psu.nrs.gov.bc.ca/"
+      },
+      "skipLinkPresent": false,
+      "unnamed": [],
+      "placeholderOnly": [],
+      "liveRegions": [
+        {
+          "sel": "main > div.MuiContainer-root.MuiContainer-maxWidthMd > div.css-1fsyajc > div.ErrorMessage-root.css-1d1c82t",
+          "live": "",
+          "role": "alert"
+        }
+      ],
+      "tableIssues": [],
+      "dialogIssues": [],
+      "positiveTabindex": [],
+      "imgIssues": [],
+      "ariaHiddenFocusable": []
+    },
+    "tabOrder": [
+      {
+        "tag": "a",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Navigate to Weather Stations Map",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "input",
+        "role": "combobox",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "input",
+        "role": "",
+        "name": "Time Range",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Reset",
+        "offscreen": false,
+        "outline": "none"
+      }
+    ],
+    "unnamedFocusStops": [
+      {
+        "tag": "a",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "input",
+        "role": "combobox",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      }
+    ],
+    "noFocusIndicator": [
+      {
+        "tag": "input",
+        "role": "combobox",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Reset",
+        "offscreen": false,
+        "outline": "none"
+      }
+    ],
+    "axe": [],
+    "consoleErrors": [
+      "Invalid Sentry Dsn: 123",
+      "Access to XMLHttpRequest at 'http://localhost:8080/api/stations/?source=unspecified' from origin 'http://localhost:8759' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is pre",
+      "AxiosError",
+      "Failed to load resource: net::ERR_FAILED"
+    ]
+  },
+  {
+    "route": "/hfi-calculator",
+    "label": "HFI Calculator",
+    "url": "http://localhost:8759/hfi-calculator",
+    "finalUrl": "http://localhost:8759/hfi-calculator",
+    "redirectedToAuth": false,
+    "probe": {
+      "title": "HFI Calculator | BCWS PSU",
+      "lang": "en",
+      "headings": [
+        {
+          "level": 1,
+          "text": "HFI Calculator",
+          "sel": "nav.GeneralHeader-root.css-evrtt1 > div.MuiContainer-root.MuiContainer-maxWidthMd > div.GeneralHeader-titleWrapper > h1.GeneralHeader-title"
+        }
+      ],
+      "headingIssues": [],
+      "landmarks": [
+        {
+          "role": "main",
+          "name": "HFI CalculatorFire CentreFire CentreSet ",
+          "sel": "div#root > main"
+        },
+        {
+          "role": "nav",
+          "name": "HFI Calculator",
+          "sel": "div#root > main > nav.GeneralHeader-root.css-evrtt1"
+        }
+      ],
+      "landmarkIssues": [],
+      "skipLink": {
+        "text": "",
+        "href": "https://psu.nrs.gov.bc.ca/"
+      },
+      "skipLinkPresent": false,
+      "unnamed": [],
+      "placeholderOnly": [],
+      "liveRegions": [
+        {
+          "sel": "div.MuiCollapse-root.MuiCollapse-vertical > div.MuiCollapse-wrapper.MuiCollapse-vertical > div.MuiCollapse-wrapperInner.MuiCollapse-vertical > div.MuiPaper-root.MuiPaper-elevation",
+          "live": "",
+          "role": "alert"
+        }
+      ],
+      "tableIssues": [
+        {
+          "sel": "div#root > main > div.MuiContainer-root.css-r69wdt-MuiContainer-root > table.MuiTable-root.css-1kamwyp-MuiTable-root",
+          "issues": [
+            "no <th>/columnheader: cells announce without a header"
+          ]
+        }
+      ],
+      "dialogIssues": [],
+      "positiveTabindex": [],
+      "imgIssues": [],
+      "ariaHiddenFocusable": []
+    },
+    "tabOrder": [
+      {
+        "tag": "a",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "input",
+        "role": "combobox",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Set prep period​Set prep period",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "About this data",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "contact us",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "close",
+        "offscreen": false,
+        "outline": "none"
+      }
+    ],
+    "unnamedFocusStops": [
+      {
+        "tag": "a",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "input",
+        "role": "combobox",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      }
+    ],
+    "noFocusIndicator": [
+      {
+        "tag": "input",
+        "role": "combobox",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Set prep period​Set prep period",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "About this data",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "close",
+        "offscreen": false,
+        "outline": "none"
+      }
+    ],
+    "axe": [],
+    "consoleErrors": [
+      "Invalid Sentry Dsn: 123",
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+      "AxiosError",
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+      "AxiosError"
+    ]
+  },
+  {
+    "route": "/fire-behaviour-calculator",
+    "label": "FBP Go / Fire Behaviour Calculator",
+    "url": "http://localhost:8759/fire-behaviour-calculator",
+    "finalUrl": "http://localhost:8759/fire-behaviour-calculator",
+    "redirectedToAuth": false,
+    "probe": {
+      "title": "FireCalc | BCWS PSU",
+      "lang": "en",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Fire Behaviour Calculator",
+          "sel": "nav.GeneralHeader-root.css-evrtt1 > div.MuiContainer-root.MuiContainer-maxWidthMd > div.GeneralHeader-titleWrapper > h1.GeneralHeader-title"
+        }
+      ],
+      "headingIssues": [],
+      "landmarks": [
+        {
+          "role": "nav",
+          "name": "Fire Behaviour Calculator",
+          "sel": "div#root > div.MuiBox-root.css-s92abg > nav.GeneralHeader-root.css-evrtt1"
+        },
+        {
+          "role": "main",
+          "name": "AxiosError: Network ErrorDate of Interes",
+          "sel": "div#root > div.MuiBox-root.css-s92abg > main.MuiContainer-root.MuiContainer-maxWidthXl"
+        }
+      ],
+      "landmarkIssues": [],
+      "skipLink": {
+        "text": "",
+        "href": "https://psu.nrs.gov.bc.ca/"
+      },
+      "skipLinkPresent": false,
+      "unnamed": [],
+      "placeholderOnly": [],
+      "liveRegions": [],
+      "tableIssues": [],
+      "dialogIssues": [],
+      "positiveTabindex": [],
+      "imgIssues": [],
+      "ariaHiddenFocusable": [
+        {
+          "sel": "input#_r_1_",
+          "html": "<input class=\"MuiPickersInputBase-input MuiPickersOutlinedInput-input css-31lcvl-MuiPickersInputBase-input\" id=\"_r_1_\" a"
+        }
+      ]
+    },
+    "tabOrder": [
+      {
+        "tag": "a",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "span",
+        "role": "spinbutton",
+        "name": "Year",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Choose date, selected date is Aug 10, 2026",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Add Row",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "input",
+        "role": "",
+        "name": "Select all rows",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "ZoneZone",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "Weather StationWeather Station",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "Elev. (m)Elev. (m)",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "FBP Fuel TypeFBP Fuel Type",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "Grass Cure (%)Grass Cure (%)",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "StatusStatus",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "Temp (°C)Temp (°C)",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "RH (%)RH (%)",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "Wind Dir (°C)Wind Dir (°C)",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "Wind Speed (km/h)Wind Speed (km/h)",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "Precip (mm)Precip (mm)",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "FFMCFFMC",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "DMCDMC",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "DCDC",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "ISIISI",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "BUIBUI",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "FWIFWI",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "HFIHFI",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "Critical Hours (4000 kW/m)Critical Hours (4000 kW/",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "Critical Hours (10000 kW/m)Critical Hours (10000 k",
+        "offscreen": false,
+        "outline": "none"
+      }
+    ],
+    "unnamedFocusStops": [
+      {
+        "tag": "a",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      }
+    ],
+    "noFocusIndicator": [
+      {
+        "tag": "span",
+        "role": "spinbutton",
+        "name": "Year",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Choose date, selected date is Aug 10, 2026",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Add Row",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "ZoneZone",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "Weather StationWeather Station",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "Elev. (m)Elev. (m)",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "FBP Fuel TypeFBP Fuel Type",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "Grass Cure (%)Grass Cure (%)",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "StatusStatus",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "Temp (°C)Temp (°C)",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "RH (%)RH (%)",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "Wind Dir (°C)Wind Dir (°C)",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "Wind Speed (km/h)Wind Speed (km/h)",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "Precip (mm)Precip (mm)",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "FFMCFFMC",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "DMCDMC",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "DCDC",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "ISIISI",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "BUIBUI",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "FWIFWI",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "HFIHFI",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "Critical Hours (4000 kW/m)Critical Hours (4000 kW/",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "span",
+        "role": "button",
+        "name": "Critical Hours (10000 kW/m)Critical Hours (10000 k",
+        "offscreen": false,
+        "outline": "none"
+      }
+    ],
+    "axe": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+        "count": 1,
+        "nodes": [
+          {
+            "target": ".css-1t1hess-Footer-links-root",
+            "summary": "Fix any of the following: Some page content is not contained by landmarks",
+            "html": "<div class=\"css-1t1hess-Footer-links-root\">"
+          }
+        ]
+      }
+    ],
+    "consoleErrors": [
+      "Invalid Sentry Dsn: 123",
+      "Access to XMLHttpRequest at 'http://localhost:8080/api/stations/?source=wildfire_one' from origin 'http://localhost:8759' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is pr",
+      "AxiosError",
+      "Failed to load resource: net::ERR_FAILED"
+    ]
+  },
+  {
+    "route": "/auto-spatial-advisory",
+    "label": "Auto Spatial Advisory (FBA)",
+    "url": "http://localhost:8759/auto-spatial-advisory",
+    "finalUrl": "http://localhost:8759/auto-spatial-advisory",
+    "redirectedToAuth": false,
+    "probe": {
+      "title": "Automated Spatial Advisory | BCWS PSU",
+      "lang": "en",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Auto Spatial Advisory",
+          "sel": "nav.GeneralHeader-root.css-evrtt1 > div.MuiContainer-root.MuiContainer-maxWidthMd > div.GeneralHeader-titleWrapper > h1.GeneralHeader-title"
+        },
+        {
+          "level": 2,
+          "text": "Advisory Report",
+          "sel": "div.MuiBox-root.css-1oqdyvp > div > div.MuiPaper-root.MuiPaper-elevation > h2.MuiAccordion-heading.css-cy7rkm-MuiAccordion-heading"
+        },
+        {
+          "level": 2,
+          "text": "Zone Unit Status",
+          "sel": "div.MuiGrid-root.MuiGrid-direction-xs-row > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-direction-xs-row > h2.MuiTypography-root.MuiTypography-h2"
+        },
+        {
+          "level": 2,
+          "text": "HFI Potential (kW/m)",
+          "sel": "div.MuiGrid-root.MuiGrid-direction-xs-row > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-direction-xs-row > h2.MuiTypography-root.MuiTypography-h2"
+        }
+      ],
+      "headingIssues": [],
+      "landmarks": [
+        {
+          "role": "nav",
+          "name": "Auto Spatial Advisory",
+          "sel": "div#root > div.MuiBox-root.css-u9cm51 > nav.GeneralHeader-root.css-evrtt1"
+        },
+        {
+          "role": "main",
+          "name": "Advisory ReportNo advisory data availabl",
+          "sel": "div#root > div.MuiBox-root.css-u9cm51 > main.MuiBox-root.css-9rw0v"
+        },
+        {
+          "role": "region",
+          "name": "No advisory data available for the selec",
+          "sel": "div.MuiCollapse-root.MuiCollapse-vertical > div.MuiCollapse-wrapper.MuiCollapse-vertical > div.MuiCollapse-wrapperInner.MuiCollapse-vertical > div.MuiAccordion-region.css-at4ued-MuiAccordion-region"
+        }
+      ],
+      "landmarkIssues": [],
+      "skipLink": {
+        "text": "",
+        "href": "https://psu.nrs.gov.bc.ca/"
+      },
+      "skipLinkPresent": false,
+      "unnamed": [],
+      "placeholderOnly": [],
+      "liveRegions": [],
+      "tableIssues": [],
+      "dialogIssues": [],
+      "positiveTabindex": [],
+      "imgIssues": [],
+      "ariaHiddenFocusable": []
+    },
+    "tabOrder": [
+      {
+        "tag": "a",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Previous day",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Next day",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "input",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Open calendar",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "input",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "input",
+        "role": "combobox",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Advisory Report",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "input",
+        "role": "",
+        "name": "Show Zone Unit Status layer",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "input",
+        "role": "",
+        "name": "Show HFI Potential (kW/m) layer",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "+",
+        "offscreen": false,
+        "outline": "solid"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "–",
+        "offscreen": false,
+        "outline": "solid"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "⤢",
+        "offscreen": false,
+        "outline": "solid"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Home",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Disclaimer",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Privacy",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Accessibility",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Copyright",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Contact Us",
+        "offscreen": false,
+        "outline": "auto"
+      }
+    ],
+    "unnamedFocusStops": [
+      {
+        "tag": "a",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "input",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "input",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "input",
+        "role": "combobox",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      }
+    ],
+    "noFocusIndicator": [
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Previous day",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Next day",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "input",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Open calendar",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "input",
+        "role": "combobox",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Advisory Report",
+        "offscreen": false,
+        "outline": "none"
+      }
+    ],
+    "axe": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+        "count": 10,
+        "nodes": [
+          {
+            "target": "#_r_1_-label",
+            "summary": "Fix any of the following: Some page content is not contained by landmarks",
+            "html": "<label class=\"MuiFormLabel-root Mu...\" data-shrink=\"true\" for=\"_r_1_\" id=\"_r_1_-label\">"
+          },
+          {
+            "target": "#_r_1_",
+            "summary": "Fix any of the following: Some page content is not contained by landmarks",
+            "html": "<input aria-invalid=\"false\" id=\"_r_1_\" readonly=\"\" class=\"MuiInputBase-input MuiOutlinedInput-input Mui-readOnly MuiInputBase-readOnly css-2yo1r-MuiInputBase-input-MuiOutlinedInput-input\" type=\"text\" "
+          },
+          {
+            "target": ".css-1n3opx0-MuiFormLabel-root",
+            "summary": "Fix any of the following: Some page content is not contained by landmarks",
+            "html": "<label class=\"MuiFormLabel-root MuiFormLabel-colorPrimary css-1n3opx0-MuiFormLabel-root\">Time Frame</label>"
+          },
+          {
+            "target": "input[data-testid=\"actual-radio\"]",
+            "summary": "Fix any of the following: Some page content is not contained by landmarks",
+            "html": "<input data-testid=\"actual-radio\" class=\"PrivateSwitchBase-input css-12xagqm-MuiSwitchBase-root\" type=\"radio\" value=\"ACTUAL\" name=\"_r_6_\">"
+          },
+          {
+            "target": ".MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.css-19opgx6-MuiFormControlLabel-root:nth-child(1) > .MuiFormControlLabel-label.css-r9etgo-MuiTypography-root.MuiTypography-body1",
+            "summary": "Fix any of the following: Some page content is not contained by landmarks",
+            "html": "<span class=\"MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-r9etgo-MuiTypography-root\">Actual</span>"
+          }
+        ]
+      }
+    ],
+    "consoleErrors": [
+      "Invalid Sentry Dsn: 123",
+      "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+      "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+      "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+      "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+    ]
+  },
+  {
+    "route": "/morecast",
+    "label": "MoreCast 2",
+    "url": "http://localhost:8759/morecast",
+    "finalUrl": "http://localhost:8759/morecast",
+    "redirectedToAuth": false,
+    "probe": {
+      "title": "MoreCast | BCWS PSU",
+      "lang": "en",
+      "headings": [
+        {
+          "level": 1,
+          "text": "MoreCast",
+          "sel": "nav.GeneralHeader-root.css-evrtt1 > div.MuiContainer-root.MuiContainer-maxWidthMd > div.GeneralHeader-titleWrapper > h1.GeneralHeader-title"
+        },
+        {
+          "level": 2,
+          "text": "Stations",
+          "sel": "div.css-2qptxd > div.StationPanel-root.css-gp37ta > div.StationPanel-header > h2.MuiTypography-root.MuiTypography-h5"
+        }
+      ],
+      "headingIssues": [],
+      "landmarks": [
+        {
+          "role": "nav",
+          "name": "MoreCast",
+          "sel": "div#root > div.css-lrh5kg > nav.GeneralHeader-root.css-evrtt1"
+        },
+        {
+          "role": "main",
+          "name": "Date Range​Date RangeResetPublish to WF1",
+          "sel": "div#root > div.css-lrh5kg > div.css-1gwzvi5 > main.css-14zv9wo"
+        }
+      ],
+      "landmarkIssues": [],
+      "skipLink": {
+        "text": "",
+        "href": "https://psu.nrs.gov.bc.ca/"
+      },
+      "skipLinkPresent": false,
+      "unnamed": [],
+      "placeholderOnly": [],
+      "liveRegions": [],
+      "tableIssues": [],
+      "dialogIssues": [],
+      "positiveTabindex": [],
+      "imgIssues": [],
+      "ariaHiddenFocusable": []
+    },
+    "tabOrder": [
+      {
+        "tag": "a",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "input",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "input",
+        "role": "combobox",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Date Range​Date Range",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Temp",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "RH",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Wind Direction",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Wind Speed",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Precip",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Grass Curing",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Forecast Summary",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Temp (°C)",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "div",
+        "role": "columnheader",
+        "name": "Station",
+        "offscreen": false,
+        "outline": "solid"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Forecast",
+        "offscreen": false,
+        "outline": "none"
+      }
+    ],
+    "unnamedFocusStops": [
+      {
+        "tag": "a",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "input",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "input",
+        "role": "combobox",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      }
+    ],
+    "noFocusIndicator": [
+      {
+        "tag": "input",
+        "role": "combobox",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Date Range​Date Range",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Temp",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "RH",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Wind Direction",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Wind Speed",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Precip",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Grass Curing",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Forecast Summary",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Temp (°C)",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Forecast",
+        "offscreen": false,
+        "outline": "none"
+      }
+    ],
+    "axe": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+        "count": 2,
+        "nodes": [
+          {
+            "target": ".MuiDataGrid-main > div:nth-child(5)",
+            "summary": "Fix any of the following: Element has insufficient color contrast of 2.12 (foreground color: #b2b2b2, background color: #ffffff, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1",
+            "html": "<div style=\"position: absolute; pointer-events: none; color: rgba(130, 130, 130, 0.62); z-index: 100000; width: 100%; text-align: center; bottom: 50%; right: 0px; letter-spacing: 5px; font-size: 24px;"
+          },
+          {
+            "target": ".MuiDataGrid-main > div:nth-child(5) > div",
+            "summary": "Fix any of the following: Element has insufficient color contrast of 2.12 (foreground color: #b2b2b2, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "html": "<div style=\"font-size: 12px; letter-spacing: 1px; margin-top: 8px;\">Open the browser console for details on how to resolve this.</div>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+        "count": 4,
+        "nodes": [
+          {
+            "target": ".StationPanel-header",
+            "summary": "Fix any of the following: Some page content is not contained by landmarks",
+            "html": "<div class=\"StationPanel-header\"><h2 class=\"MuiTypography-root MuiTypography-h5 css-1y4aizs-MuiTypography-root\">Stations</h2></div>"
+          },
+          {
+            "target": ".PrivateSwitchBase-input",
+            "summary": "Fix any of the following: Some page content is not contained by landmarks",
+            "html": "<input data-indeterminate=\"false\" class=\"PrivateSwitchBase-input css-12xagqm-MuiSwitchBase-root\" type=\"checkbox\" checked=\"\">"
+          },
+          {
+            "target": ".MuiFormControlLabel-label",
+            "summary": "Fix any of the following: Some page content is not contained by landmarks",
+            "html": "<span class=\"MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-r9etgo-MuiTypography-root\">Show only my groups</span>"
+          },
+          {
+            "target": "#_r_1o_-label",
+            "summary": "Fix any of the following: Some page content is not contained by landmarks",
+            "html": "<label class=\"MuiFormLabel-root Mu...\" data-shrink=\"false\" for=\"_r_1o_\" id=\"_r_1o_-label\">"
+          }
+        ]
+      }
+    ],
+    "consoleErrors": [
+      "Invalid Sentry Dsn: 123",
+      "*************************************************************\n\nMUI X: Invalid license key.\n\nYour MUI X license key format isn't valid. It could be because the license key is missing a character or has",
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+      "AxiosError",
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+    ]
+  },
+  {
+    "route": "/insights",
+    "label": "SFMS Insights",
+    "url": "http://localhost:8759/insights",
+    "finalUrl": "http://localhost:8759/insights",
+    "redirectedToAuth": false,
+    "probe": {
+      "title": "BC Wildfire Predictive Services",
+      "lang": "en",
+      "headings": [
+        {
+          "level": 1,
+          "text": "SFMS Insights",
+          "sel": "nav.GeneralHeader-root.css-evrtt1 > div.MuiContainer-root.MuiContainer-maxWidthMd > div.GeneralHeader-titleWrapper > h1.GeneralHeader-title"
+        }
+      ],
+      "headingIssues": [],
+      "landmarks": [
+        {
+          "role": "nav",
+          "name": "SFMS InsightsBETA",
+          "sel": "div#root > div.MuiBox-root.css-u9cm51 > nav.GeneralHeader-root.css-evrtt1"
+        },
+        {
+          "role": "main",
+          "name": "+–⇧iFuelC-1C-2C-3C-4C-5C-6C-7D-1/D-2S-1S",
+          "sel": "div#root > div.MuiBox-root.css-u9cm51 > main.MuiBox-root.css-1bqnmih"
+        }
+      ],
+      "landmarkIssues": [],
+      "skipLink": {
+        "text": "",
+        "href": "https://psu.nrs.gov.bc.ca/"
+      },
+      "skipLinkPresent": false,
+      "unnamed": [],
+      "placeholderOnly": [],
+      "liveRegions": [
+        {
+          "sel": "main.MuiBox-root.css-1bqnmih > div.MuiBox-root.css-1f8sh1y > div.MuiSnackbar-root.MuiSnackbar-anchorOriginBottomCenter > div.MuiPaper-root.MuiPaper-elevation",
+          "live": "",
+          "role": "alert"
+        }
+      ],
+      "tableIssues": [],
+      "dialogIssues": [],
+      "positiveTabindex": [],
+      "imgIssues": [],
+      "ariaHiddenFocusable": [
+        {
+          "sel": "input#_r_7_",
+          "html": "<input aria-invalid=\"false\" aria-hidden=\"true\" tabindex=\"-1\" class=\"MuiSelect-nativeInput css-j0riat-MuiSelect-nativeInp"
+        }
+      ]
+    },
+    "tabOrder": [
+      {
+        "tag": "a",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Previous day",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Next day",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "input",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Open calendar",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "div",
+        "role": "combobox",
+        "name": "Fuel",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "input",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "+",
+        "offscreen": false,
+        "outline": "solid"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "–",
+        "offscreen": false,
+        "outline": "solid"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Close",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Home",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Disclaimer",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Privacy",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Accessibility",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Copyright",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Contact Us",
+        "offscreen": false,
+        "outline": "auto"
+      }
+    ],
+    "unnamedFocusStops": [
+      {
+        "tag": "a",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "input",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "input",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      }
+    ],
+    "noFocusIndicator": [
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Previous day",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Next day",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "input",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Open calendar",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "div",
+        "role": "combobox",
+        "name": "Fuel",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Close",
+        "offscreen": false,
+        "outline": "none"
+      }
+    ],
+    "axe": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+        "count": 8,
+        "nodes": [
+          {
+            "target": "#_r_8_-label",
+            "summary": "Fix any of the following: Some page content is not contained by landmarks",
+            "html": "<label class=\"MuiFormLabel-root Mu...\" data-shrink=\"true\" for=\"_r_8_\" id=\"_r_8_-label\">"
+          },
+          {
+            "target": "#_r_8_",
+            "summary": "Fix any of the following: Some page content is not contained by landmarks",
+            "html": "<input aria-invalid=\"false\" id=\"_r_8_\" readonly=\"\" class=\"MuiInputBase-input MuiOutlinedInput-input Mui-readOnly MuiInputBase-readOnly css-2yo1r-MuiInputBase-input-MuiOutlinedInput-input\" type=\"text\" "
+          },
+          {
+            "target": "#raster-type-label",
+            "summary": "Fix any of the following: Some page content is not contained by landmarks",
+            "html": "<label class=\"MuiFormLabel-root Mu...\" data-shrink=\"true\" id=\"raster-type-label\">"
+          },
+          {
+            "target": "#raster-type-select",
+            "summary": "Fix any of the following: Some page content is not contained by landmarks",
+            "html": "<div tabindex=\"0\" role=\"combobox\" aria-expanded=\"false\" aria-haspopup=\"listbox\" aria-labelledby=\"raster-type-label\" id=\"raster-type-select\" class=\"MuiSelect-select Mui...\">"
+          },
+          {
+            "target": ".PrivateSwitchBase-input",
+            "summary": "Fix any of the following: Some page content is not contained by landmarks",
+            "html": "<input data-indeterminate=\"false\" class=\"PrivateSwitchBase-input css-12xagqm-MuiSwitchBase-root\" type=\"checkbox\" checked=\"\">"
+          }
+        ]
+      }
+    ],
+    "consoleErrors": [
+      "Invalid Sentry Dsn: 123",
+      "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+      "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+      "AxiosError"
+    ]
+  },
+  {
+    "route": "/fire-watch",
+    "label": "Fire Watch",
+    "url": "http://localhost:8759/fire-watch",
+    "finalUrl": "http://localhost:8759/fire-watch",
+    "redirectedToAuth": false,
+    "probe": {
+      "title": "BC Wildfire Predictive Services",
+      "lang": "en",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Fire Watch",
+          "sel": "div.MuiBox-root.css-1j168b1 > header.MuiPaper-root.MuiPaper-elevation > div.MuiToolbar-root.MuiToolbar-gutters > h1.MuiTypography-root.MuiTypography-body1"
+        },
+        {
+          "level": 2,
+          "text": "Dashboard",
+          "sel": "div#fire-watch-dashboard > h2.MuiTypography-root.MuiTypography-h4"
+        }
+      ],
+      "headingIssues": [],
+      "landmarks": [
+        {
+          "role": "header",
+          "name": "Fire Watch",
+          "sel": "div#root > div.MuiBox-root.css-1j168b1 > header.MuiPaper-root.MuiPaper-elevation"
+        },
+        {
+          "role": "main",
+          "name": "DashboardCreateDashboardDetail panel tog",
+          "sel": "div#root > div.MuiBox-root.css-1j168b1 > main.MuiBox-root.css-1lwtz6w"
+        }
+      ],
+      "landmarkIssues": [],
+      "skipLink": {
+        "text": "open drawer",
+        "href": null
+      },
+      "skipLinkPresent": false,
+      "unnamed": [],
+      "placeholderOnly": [],
+      "liveRegions": [
+        {
+          "sel": "div#fire-watch-dashboard > div.MuiBackdrop-root.css-qc0l5n-MuiBackdrop-root > span.MuiCircularProgress-root.MuiCircularProgress-indeterminate",
+          "live": "",
+          "role": "progressbar"
+        }
+      ],
+      "tableIssues": [],
+      "dialogIssues": [],
+      "positiveTabindex": [],
+      "imgIssues": [],
+      "ariaHiddenFocusable": []
+    },
+    "tabOrder": [
+      {
+        "tag": "button",
+        "role": "",
+        "name": "open drawer",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "div",
+        "role": "button",
+        "name": "Dashboard",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "div",
+        "role": "button",
+        "name": "Create",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "div",
+        "role": "columnheader",
+        "name": "Detail panel toggle",
+        "offscreen": false,
+        "outline": "solid"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Home",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Disclaimer",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Privacy",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Accessibility",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Copyright",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Contact Us",
+        "offscreen": false,
+        "outline": "auto"
+      }
+    ],
+    "unnamedFocusStops": [
+      {
+        "tag": "a",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      }
+    ],
+    "noFocusIndicator": [
+      {
+        "tag": "button",
+        "role": "",
+        "name": "open drawer",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "div",
+        "role": "button",
+        "name": "Dashboard",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "div",
+        "role": "button",
+        "name": "Create",
+        "offscreen": false,
+        "outline": "none"
+      }
+    ],
+    "axe": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+        "count": 2,
+        "nodes": [
+          {
+            "target": ".MuiDataGrid-main > div:nth-child(3)",
+            "summary": "Fix any of the following: Element has insufficient color contrast of 2.12 (foreground color: #b2b2b2, background color: #ffffff, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1",
+            "html": "<div style=\"position: absolute; pointer-events: none; color: rgba(130, 130, 130, 0.62); z-index: 100000; width: 100%; text-align: center; bottom: 50%; right: 0px; letter-spacing: 5px; font-size: 24px;"
+          },
+          {
+            "target": ".MuiDataGrid-main > div:nth-child(3) > div",
+            "summary": "Fix any of the following: Element has insufficient color contrast of 2.12 (foreground color: #b2b2b2, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "html": "<div style=\"font-size: 12px; letter-spacing: 1px; margin-top: 8px;\">Open the browser console for details on how to resolve this.</div>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+        "count": 1,
+        "nodes": [
+          {
+            "target": ".css-1t1hess-Footer-links-root",
+            "summary": "Fix any of the following: Some page content is not contained by landmarks",
+            "html": "<div class=\"css-1t1hess-Footer-links-root\">"
+          }
+        ]
+      }
+    ],
+    "consoleErrors": [
+      "Invalid Sentry Dsn: 123",
+      "*************************************************************\n\nMUI X: Invalid license key.\n\nYour MUI X license key format isn't valid. It could be because the license key is missing a character or has",
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+    ]
+  },
+  {
+    "route": "/weather-toolkit",
+    "label": "Weather Toolkit",
+    "url": "http://localhost:8759/weather-toolkit",
+    "finalUrl": "http://localhost:8759/weather-toolkit",
+    "redirectedToAuth": false,
+    "probe": {
+      "title": "BC Wildfire Predictive Services",
+      "lang": "en",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Weather Toolkit",
+          "sel": "nav.GeneralHeader-root.css-evrtt1 > div.MuiContainer-root.MuiContainer-maxWidthMd > div.GeneralHeader-titleWrapper > h1.GeneralHeader-title"
+        },
+        {
+          "level": 2,
+          "text": "4-Panel Charts",
+          "sel": "main.MuiBox-root.css-1ilyui9 > div.MuiBox-root.css-1vo9r6d > div.MuiBox-root.css-1gh5laf > h2.MuiTypography-root.MuiTypography-h5"
+        }
+      ],
+      "headingIssues": [],
+      "landmarks": [
+        {
+          "role": "nav",
+          "name": "Weather ToolkitBETA",
+          "sel": "div#root > div.MuiBox-root.css-11sjb0a > nav.GeneralHeader-root.css-evrtt1"
+        },
+        {
+          "role": "main",
+          "name": "4-Panel ChartsTimeModel Run Date (UTC)Mo",
+          "sel": "div#root > div.MuiBox-root.css-11sjb0a > main.MuiBox-root.css-1ilyui9"
+        }
+      ],
+      "landmarkIssues": [],
+      "skipLink": {
+        "text": "",
+        "href": "https://psu.nrs.gov.bc.ca/"
+      },
+      "skipLinkPresent": false,
+      "unnamed": [],
+      "placeholderOnly": [],
+      "liveRegions": [
+        {
+          "sel": "main.MuiBox-root.css-1ilyui9 > div.MuiBox-root.css-16zrtkt > div.MuiBox-root.css-i5e3x6 > p.MuiTypography-root.MuiTypography-h6",
+          "live": "",
+          "role": "status"
+        }
+      ],
+      "tableIssues": [],
+      "dialogIssues": [],
+      "positiveTabindex": [],
+      "imgIssues": [],
+      "ariaHiddenFocusable": [
+        {
+          "sel": "input#_r_7_",
+          "html": "<input aria-invalid=\"false\" aria-hidden=\"true\" tabindex=\"-1\" class=\"MuiSelect-nativeInput css-j0riat-MuiSelect-nativeInp"
+        },
+        {
+          "sel": "input#_r_9_",
+          "html": "<input aria-invalid=\"false\" aria-hidden=\"true\" tabindex=\"-1\" class=\"MuiSelect-nativeInput css-j0riat-MuiSelect-nativeInp"
+        }
+      ]
+    },
+    "tabOrder": [
+      {
+        "tag": "a",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Previous day",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Next day",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "input",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Open calendar",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "div",
+        "role": "combobox",
+        "name": "00Z",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "div",
+        "role": "combobox",
+        "name": "GDPS",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Expand chart",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Next timestep",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "input",
+        "role": "",
+        "name": "Timeline slider 0 to 240 hours",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Home",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Disclaimer",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Privacy",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Accessibility",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Copyright",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "a",
+        "role": "",
+        "name": "Contact Us",
+        "offscreen": false,
+        "outline": "auto"
+      }
+    ],
+    "unnamedFocusStops": [
+      {
+        "tag": "a",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "auto"
+      },
+      {
+        "tag": "input",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      }
+    ],
+    "noFocusIndicator": [
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Previous day",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Next day",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "input",
+        "role": "",
+        "name": "",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Open calendar",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "div",
+        "role": "combobox",
+        "name": "00Z",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "div",
+        "role": "combobox",
+        "name": "GDPS",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Expand chart",
+        "offscreen": false,
+        "outline": "none"
+      },
+      {
+        "tag": "button",
+        "role": "",
+        "name": "Next timestep",
+        "offscreen": false,
+        "outline": "none"
+      }
+    ],
+    "axe": [
+      {
+        "id": "region",
+        "impact": "moderate",
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/region?application=playwright",
+        "count": 2,
+        "nodes": [
+          {
+            "target": "input[aria-label=\"Timeline slider 0 to 240 hours\"]",
+            "summary": "Fix any of the following: Some page content is not contained by landmarks",
+            "html": "<input data-index=\"0\" aria-label=\"Timeline slider 0 to...\" aria-valuenow=\"0\" aria-orientation=\"horizontal\" aria-valuemax=\"240\" aria-valuemin=\"0\" min=\"0\" max=\"240\" step=\"6\" type=\"range\" value=\"0\" style"
+          },
+          {
+            "target": ".css-1t1hess-Footer-links-root",
+            "summary": "Fix any of the following: Some page content is not contained by landmarks",
+            "html": "<div class=\"css-1t1hess-Footer-links-root\">"
+          }
+        ]
+      }
+    ],
+    "consoleErrors": [
+      "Invalid Sentry Dsn: 123",
+      "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+      "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+      "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+      "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+    ]
+  }
+]

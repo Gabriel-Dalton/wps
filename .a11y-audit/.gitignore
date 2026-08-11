@@ -1,0 +1,7 @@
+node_modules/ 
+shots/ 
+package-lock.json 
+edits*.json 
+edit.cjs 
+lint.sh 
+results-before.json
