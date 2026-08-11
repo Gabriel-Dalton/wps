@@ -66,11 +66,18 @@ const InfoAccordion = ({
 }: InfoAccordionProps) => {
   const theme = useTheme()
 
+  // Accordion renders the summary inside a heading that defaults to h3, which skips a level
+  // under the page h1.
   return (
-    <Accordion data-testid="info-accordion" disableGutters defaultExpanded={defaultExpanded} elevation={0}>
+    <Accordion
+      data-testid="info-accordion"
+      disableGutters
+      defaultExpanded={defaultExpanded}
+      elevation={0}
+      slotProps={{ heading: { component: 'h2' } }}
+    >
       <Box>
-        {/* AccordionSummary defaults to an h3, which skips a level under the page h1. */}
-        <StyledAccordionSummary slotProps={{ heading: { component: 'h2' } }} expandIcon={<ExpandMoreIcon />}>
+        <StyledAccordionSummary expandIcon={<ExpandMoreIcon />}>
           {/* MUI already renders the AccordionSummary as a heading, so this Typography must be a
               span. Otherwise the title is announced twice and creates a h3 -> h6 level jump. */}
           <Typography
