@@ -69,7 +69,8 @@ const InfoAccordion = ({
   return (
     <Accordion data-testid="info-accordion" disableGutters defaultExpanded={defaultExpanded} elevation={0}>
       <Box>
-        <StyledAccordionSummary expandIcon={<ExpandMoreIcon />}>
+        {/* AccordionSummary defaults to an h3, which skips a level under the page h1. */}
+        <StyledAccordionSummary slotProps={{ heading: { component: 'h2' } }} expandIcon={<ExpandMoreIcon />}>
           {/* MUI already renders the AccordionSummary as a heading, so this Typography must be a
               span. Otherwise the title is announced twice and creates a h3 -> h6 level jump. */}
           <Typography

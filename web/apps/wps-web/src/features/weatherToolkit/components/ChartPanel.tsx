@@ -51,7 +51,11 @@ const ChartPanel = ({ imageSrc, chartKey, isFailed, isExpanded, onToggleExpand }
             gap: 1
           }}
         >
-          <Typography variant="h6">Image not available</Typography>
+          {/* Status text, not a section heading: making it a heading put an h6 in the outline
+              and polluted heading navigation. role=status announces it when the load fails. */}
+          <Typography component="p" role="status" variant="h6">
+            Image not available
+          </Typography>
           <Typography variant="body2" sx={{ wordBreak: 'break-all', px: 4, textAlign: 'center' }}>
             {chartKey}
           </Typography>
