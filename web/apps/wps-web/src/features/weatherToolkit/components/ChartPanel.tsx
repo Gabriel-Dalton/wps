@@ -27,9 +27,21 @@ interface ChartPanelProps {
   onToggleExpand: () => void
 }
 
+// Width over height of the generated chart image, matching DEFAULT_FIG_SIZE in
+// wps-weather. Used until the real image dimensions are known from the browser.
+const DEFAULT_IMAGE_ASPECT = 11.8 / 10
+
 const ChartPanel = ({ imageSrc, chartKey, isFailed, isExpanded, onToggleExpand }: ChartPanelProps) => {
   const theme = useTheme()
   const [focusedPanel, setFocusedPanel] = useState<PanelQuadrant | null>(null)
+  const [imageAspect, setImageAspect] = useState<number>(DEFAULT_IMAGE_ASPECT)
+
+  const handleImageLoad = (e: React.SyntheticEvent<HTMLImageElement>) => {
+    const { naturalWidth, naturalHeight } = e.currentTarget
+    if (naturalWidth > 0 && naturalHeight > 0) {
+      setImageAspect(naturalWidth / naturalHeight)
+    }
+  }
 
   useEffect(() => {
     if (!focusedPanel) return
@@ -46,23 +58,51 @@ const ChartPanel = ({ imageSrc, chartKey, isFailed, isExpanded, onToggleExpand }
 
   return (
     <Box sx={{ flexGrow: 1, overflow: 'hidden', bgcolor: '#B9B9B9', position: 'relative' }}>
-      {imageSrc && !isFailed && (
+      {imageSrc && !isFailed && !focused && (
         <img
           src={imageSrc}
-          alt={focused ? `${focused.label} panel` : '4-panel chart'}
-          style={
-            focused
-              ? {
-                  position: 'absolute',
-                  top: focused.row === 0 ? 0 : '-100%',
-                  left: focused.col === 0 ? 0 : '-100%',
-                  width: '200%',
-                  height: '200%',
-                  objectFit: 'contain'
-                }
-              : { position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'contain' }
-          }
+          alt="4-panel chart"
+          onLoad={handleImageLoad}
+          style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'contain' }}
         />
+      )}
+      {imageSrc && !isFailed && focused && (
+        <Box
+          sx={{
+            position: 'absolute',
+            inset: 0,
+            containerType: 'size',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
+          }}
+        >
+          {/* Crop box with the aspect ratio of a single plot (the same as the full
+              image), sized to fit the panel area, so the focused plot is centred
+              with no letterboxing carried over from the 4-panel view. */}
+          <Box
+            sx={{
+              position: 'relative',
+              overflow: 'hidden',
+              width: `min(100cqw, calc(100cqh * ${imageAspect}))`,
+              height: `min(100cqh, calc(100cqw / ${imageAspect}))`
+            }}
+          >
+            <img
+              src={imageSrc}
+              alt={`${focused.label} panel`}
+              onLoad={handleImageLoad}
+              style={{
+                position: 'absolute',
+                top: focused.row === 0 ? 0 : '-100%',
+                left: focused.col === 0 ? 0 : '-100%',
+                width: '200%',
+                height: '200%',
+                objectFit: 'fill'
+              }}
+            />
+          </Box>
+        </Box>
       )}
       {imageSrc && !isFailed && !focusedPanel && (
         <Box
